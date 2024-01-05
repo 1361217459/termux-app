@@ -93,12 +93,12 @@
                         android:text="@string/action_new_session" />
 					
 					<com.google.android.material.button.MaterialButton
-                        android:id="@+id/test"
+                        android:id="@+id/new_main_button"
                         style="?android:attr/buttonBarButtonStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="test" />
+                        android:text="Main" />
 					
                 </LinearLayout>
             </LinearLayout>

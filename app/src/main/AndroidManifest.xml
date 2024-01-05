@@ -89,6 +89,11 @@
             </intent-filter>
         </activity-alias>
 
+		<activity
+			android:name=".app.MainActivity"
+			android:exported="true"
+			android:label="Termux"/>
+		
         <activity
             android:name=".app.activities.HelpActivity"
             android:exported="false"
