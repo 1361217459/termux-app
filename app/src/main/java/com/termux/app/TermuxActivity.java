@@ -253,7 +253,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
 
         setToggleKeyboardView();
 		
-		setMainActivityView();
+		
 
         registerForContextMenu(mTerminalView);
 
@@ -588,16 +588,6 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         });
     }
 	
-	private void setMainActivityView() {
-		View newMainButton = findViewById(R.id.new_main_button);
-		newMainButton.setOnClickListener(new OnClickListener(){
-				@Override
-				public void onClick(View v) {
-					Intent i =new Intent(TermuxActivity.this,MainActivity.class);
-					startActivity(i);
-				}		
-		});
-	}
 
     private void setToggleKeyboardView() {
         findViewById(R.id.toggle_keyboard_button).setOnClickListener(v -> {
